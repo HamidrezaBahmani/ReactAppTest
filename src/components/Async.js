@@ -4,7 +4,7 @@ const Async = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    //dummy data url
+    //dummy data url POSTs
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((data) => {
